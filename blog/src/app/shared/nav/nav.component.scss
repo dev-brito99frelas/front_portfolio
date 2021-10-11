@@ -1,15 +1,25 @@
 nav {
   height: 5vh;
-  width: 100vw;
-  background: #747475a9;
+  width: 100%;
+  background: #D6DDE2;
+  // background: -o-linear-gradient(left,#D6DDE2,black);
+  -webkit-box-shadow: 0px 7px 13px -9px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+  box-shadow: 0px 7px 13px -9px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+  display: inline-block;
 }
-nav ul{
-  list-style: none;
+nav > ul{
+  margin-right: 15px;
   display: flex;
   justify-content: flex-end;
+  list-style: none;
 }
-nav ul li{
-  margin: 10px;
+nav > ul > li{
+  margin: 15px;
   flex-direction: row;
   align-self: flex-end;
+}
+a{
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
 }

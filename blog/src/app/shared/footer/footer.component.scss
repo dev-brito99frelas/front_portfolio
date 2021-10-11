@@ -1,9 +1,10 @@
 footer {
-  height: 10vh;
-  width: 100vw;
-  background: -webkit-linear-gradient(left,blue,purple);
-  position: absolute;
+  height: 30vh;
+  width: 100%;
+  background: #313046;
+  position: relative;
   bottom: 0;
+  margin-top: 10px;
 }
 .footerinfo {
   display: flex;
@@ -13,16 +14,16 @@ footer {
 
 .mapsiteLeft {
   max-height: 10vh;
-  width: 33vw;
+  width: 30vw;
 }
 .mapsiteRight {
   max-height: 10vh;
-  width: 33vw;
+  width: 30vw;
 }
 .center {
   text-align: center;
   align-self: center;
   color: aliceblue;
   max-height: 10vh;
-  width: 33vw;
+  width: 30vw;
 }

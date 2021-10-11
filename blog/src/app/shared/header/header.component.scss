@@ -1,5 +1,14 @@
 header {
   height: 20vh;
-  width: 100vw;
-  background: -webkit-linear-gradient(left,blue,purple);
+  width: 100%;
+  // background: -webkit-linear-gradient(left,#ECEFF3,#9392C6);
+  background: -webkit-linear-gradient(left,#ECEFF3,#2A2C4D);
+}
+.logo {
+  display: flex;
+}
+.logo > a > img{
+  padding: 30px;
+  max-width: 250px;
+  max-height: 160px;
 }
