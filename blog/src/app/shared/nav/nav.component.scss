@@ -1,0 +1,15 @@
+nav {
+  height: 5vh;
+  width: 100vw;
+  background: #747475a9;
+}
+nav ul{
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+}
+nav ul li{
+  margin: 10px;
+  flex-direction: row;
+  align-self: flex-end;
+}
