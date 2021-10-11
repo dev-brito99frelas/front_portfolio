@@ -2,5 +2,27 @@ footer {
   height: 10vh;
   width: 100vw;
   background: -webkit-linear-gradient(left,blue,purple);
+  position: absolute;
   bottom: 0;
+}
+.footerinfo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.mapsiteLeft {
+  max-height: 10vh;
+  width: 33vw;
+}
+.mapsiteRight {
+  max-height: 10vh;
+  width: 33vw;
+}
+.center {
+  text-align: center;
+  align-self: center;
+  color: aliceblue;
+  max-height: 10vh;
+  width: 33vw;
 }
