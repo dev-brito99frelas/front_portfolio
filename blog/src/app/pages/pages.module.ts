@@ -11,6 +11,7 @@ import { ProfileComponent } from './profile/profile.component';
 import { ErrorComponent } from './error/error.component';
 import { LoginComponent } from './login/login.component';
 import { PostListService } from './blog/post-list.service';
+import { SharedModule } from '../shared/shared.module';
 
 /**@description Services dos componnets */
 
@@ -26,7 +27,8 @@ import { PostListService } from './blog/post-list.service';
   ],
   imports: [
     CommonModule,
-    HttpClientModule
+    HttpClientModule,
+    SharedModule
   ],
   exports: [
     HomeComponent,

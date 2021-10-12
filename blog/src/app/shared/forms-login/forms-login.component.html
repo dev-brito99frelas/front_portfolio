@@ -1,0 +1,12 @@
+<form #form="ngForm" (ngSubmit)="submitForm(form)">
+  <label for="email">
+    e-mail:
+    <input type="email" name="email" ngModel>
+  </label>
+
+  <label for="senha">
+    Senha:
+    <input type="password" name="senha" ngModel>
+  </label>
+  <!-- <button [disale]="form.invalid">Enviar dados</button> -->
+  <button>Enviar dados</button>

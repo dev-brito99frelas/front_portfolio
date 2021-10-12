@@ -1,0 +1,28 @@
+<form #form="ngForm" (ngSubmit)="submitForm(form)">
+  <label for="title">
+    Titulo:
+    <input type="text" name="title" ngModel>
+  </label>
+
+  <label for="content">
+    Conteúdo:
+    <input type="text" name="content" ngModel>
+  </label>
+
+  <label for="img_url">
+    Imagem:
+    <input type="text" name="img_url" ngModel>
+  </label>
+
+  <label for="created_at">
+    Data de criação:
+    <input type="text" name="created_at" ngModel>
+  </label>
+  <label for="tupdated_at">
+    Data de update:
+    <input type="text" name="updated_at" ngModel>
+  </label>
+  <!-- <button [disale]="form.invalid">Enviar dados</button> -->
+  <button>Enviar dados</button>
+
+{{ form.value | json }}
