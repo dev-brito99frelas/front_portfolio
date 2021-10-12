@@ -1,6 +1,6 @@
 # Front_os
-Esse repositório faz parte de um projeto generico e será utilizado em conjunto com um projeto de backend node apenas para teste de deploy em nuvem.
+Esse repositório faz parte de um projeto genérico e será utilizado em conjunto com um projeto de back-end node.js apenas para teste de deploy em nuvem.
 ## Executar o projeto
-- Ter o angular cli instalado,logo precisa do npm pra instalar;
-- Entrar na pasta raiz do projeto e fazer o famozo $ npm install;
+- Ter o angular cli instalado,logo precisa do npm para instalar;
+- Entrar na pasta raiz do projeto e fazer o famoso $ npm install;
 - executar $ ng serve, no terminal estando na raiz;
