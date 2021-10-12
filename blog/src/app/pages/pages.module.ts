@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { HttpClientModule } from '@angular/common/http';
 
 /**@description componenetes pages */
 import { HomeComponent } from './home/home.component';
@@ -9,8 +10,9 @@ import { ServicesComponent } from './services/services.component';
 import { ProfileComponent } from './profile/profile.component';
 import { ErrorComponent } from './error/error.component';
 import { LoginComponent } from './login/login.component';
+import { PostListService } from './blog/post-list.service';
 
-
+/**@description Services dos componnets */
 
 @NgModule({
   declarations: [
@@ -23,7 +25,8 @@ import { LoginComponent } from './login/login.component';
     LoginComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    HttpClientModule
   ],
   exports: [
     HomeComponent,
@@ -33,6 +36,9 @@ import { LoginComponent } from './login/login.component';
     ProfileComponent,
     ErrorComponent,
     LoginComponent
+  ],
+  providers:[
+    PostListService
   ]
 })
 export class PagesModule { }
