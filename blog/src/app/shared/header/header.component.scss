@@ -3,6 +3,9 @@ header {
   width: 100%;
   // background: -webkit-linear-gradient(left,#ECEFF3,#9392C6);
   background: -webkit-linear-gradient(left,#ECEFF3,#2A2C4D);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 .logo {
   display: flex;
@@ -11,4 +14,26 @@ header {
   padding: 30px;
   max-width: 250px;
   max-height: 160px;
+}
+.login {
+  width: 70px;
+  height: 20px;
+  align-self: center;
+  background:white;
+  margin-right: 20px;
+  border-radius: 20px;
+}
+header >.login > a > button {
+  border-radius: 20px;
+  text-decoration: none;
+  display: inline-block;
+  background: red;
+}
+header >.login > a > button:hover {
+  border-radius: 20px;
+  text-decoration: none;
+  background: green;
+  display: inline-block;
+  -webkit-transform: translateX(2px);
+  transform: translateX(20px);
 }

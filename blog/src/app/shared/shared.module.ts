@@ -5,6 +5,7 @@ import { FooterComponent } from './footer/footer.component';
 import { ContentComponent } from './content/content.component';
 import { NavComponent } from './nav/nav.component';
 import { AppRoutingModule } from '../app-routing.module';
+import { CardComponent } from './card/card.component';
 
 
 
@@ -13,7 +14,8 @@ import { AppRoutingModule } from '../app-routing.module';
     HeaderComponent,
     FooterComponent,
     ContentComponent,
-    NavComponent
+    NavComponent,
+    CardComponent
   ],
   imports: [
     CommonModule,
@@ -23,7 +25,8 @@ import { AppRoutingModule } from '../app-routing.module';
     HeaderComponent,
     FooterComponent,
     ContentComponent,
-    NavComponent
+    NavComponent,
+    CardComponent
   ]
 })
 export class SharedModule { }

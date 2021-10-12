@@ -1,0 +1,26 @@
+.layergrid {
+  width: 100%;
+  min-height: 600px;
+  padding: 20px;
+  background: #98999b;
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  grid-template-areas: "lyerIntrLeft lyerIntrCenter lyerIntrRight";
+}
+.lyerIntrLeft{
+  grid-area: lyerIntrLeft;
+  // background: red;
+  width: 100%;
+}
+.lyerIntrCenter{
+  border-radius: 25px;
+  grid-area: lyerIntrCenter;
+  // background: #FFFFFF;
+  background: #cdd1d4;
+  width: 100%;
+}
+.lyerIntrRight{
+  grid-area: lyerIntrRight;
+  // background: blue;
+  width: 100%;
+}

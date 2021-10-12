@@ -8,6 +8,7 @@ import { BlogComponent } from './blog/blog.component';
 import { ServicesComponent } from './services/services.component';
 import { ProfileComponent } from './profile/profile.component';
 import { ErrorComponent } from './error/error.component';
+import { LoginComponent } from './login/login.component';
 
 
 
@@ -18,7 +19,8 @@ import { ErrorComponent } from './error/error.component';
     BlogComponent,
     ServicesComponent,
     ProfileComponent,
-    ErrorComponent
+    ErrorComponent,
+    LoginComponent
   ],
   imports: [
     CommonModule
@@ -29,7 +31,8 @@ import { ErrorComponent } from './error/error.component';
     BlogComponent,
     ServicesComponent,
     ProfileComponent,
-    ErrorComponent
+    ErrorComponent,
+    LoginComponent
   ]
 })
 export class PagesModule { }
