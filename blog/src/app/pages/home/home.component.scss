@@ -8,9 +8,10 @@
 }
 .imagemUser {
   top: 260px;
-  height: 900px;
-  width: 35%;
-  background: -webkit-linear-gradient(top,#7B68CA,#3B3A50);
+  height: 750px;
+  width: 30%;
+  background: -webkit-linear-gradient(top,#7874bd,#282829);
+  // background: -webkit-linear-gradient(top,#7B68CA,#3B3A50);
   border-radius: 90% 5% 20% 5%;
   position: relative;
   -webkit-box-shadow: #FFF 0 -1px 4px, #5B43BC 0 -2px 10px, #7B68CA 0 -10px 20px, #9C8DD8 0 -18px 40px, 5px 5px 15px 5px rgba(0,0,0,0);
@@ -19,6 +20,7 @@
 .imagemUser > img{
   height: 600px;
   position: absolute;
-  bottom: 0;
-  right: 0;
+  bottom: 40px;
+  right: 20px;
+  border-radius: 35%;
 }
