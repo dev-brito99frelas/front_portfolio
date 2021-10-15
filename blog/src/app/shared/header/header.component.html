@@ -1,10 +1,12 @@
 <header>
   <div class="logo">
     <a routerLink="">
-      <img src="../../../assets/logo.png" alt="logotipo do site">
+      <img [src] = "logotipo" alt="logo do site">
     </a>
   </div>
   <div class="login">
-    <a routerLink="/login"><button>Login</button></a>
+    <a routerLink="/login">
+      <img [src] = "login" alt="logar no site">
+    </a>
   </div>
 </header>

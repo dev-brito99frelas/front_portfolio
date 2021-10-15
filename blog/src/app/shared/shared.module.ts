@@ -5,7 +5,6 @@ import { FormsModule } from '@angular/forms';
 
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
-import { ContentComponent } from './content/content.component';
 import { NavComponent } from './nav/nav.component';
 import { AppRoutingModule } from '../app-routing.module';
 import { CardComponent } from './card/card.component';
@@ -18,7 +17,6 @@ import { FormsLoginComponent } from './forms-login/forms-login.component';
   declarations: [
     HeaderComponent,
     FooterComponent,
-    ContentComponent,
     NavComponent,
     CardComponent,
     FormsComponent,
@@ -32,7 +30,6 @@ import { FormsLoginComponent } from './forms-login/forms-login.component';
   exports:[
     HeaderComponent,
     FooterComponent,
-    ContentComponent,
     NavComponent,
     CardComponent,
     FormsComponent,

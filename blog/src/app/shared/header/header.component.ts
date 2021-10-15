@@ -6,6 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent implements OnInit {
+  public logotipo: string = '../../../assets/logo.png';
+  public login: string = '../../../assets/log-in-outline.svg';
 
   constructor() { }
 

@@ -3,12 +3,24 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-root',
   template: `
-    <app-header></app-header>
-    <app-nav></app-nav>
+  <div class="template-grid">
 
-    <router-outlet></router-outlet>
+    <div class="header-igrid">
+      <app-header></app-header>
+    </div>
+    <div class="nav-igrid">
+      <app-nav></app-nav>
+    </div>
+
+    <div class="content-igrid">
+      <router-outlet></router-outlet>
+    </div>
+
+    <div class="footer-igrid">
+      <app-footer></app-footer>
+    </div>
     
-    <app-footer></app-footer>
+  </div>
   `,
 })
 export class AppComponent {
