@@ -10,6 +10,7 @@ import { AppRoutingModule } from '../app-routing.module';
 import { CardComponent } from './card/card.component';
 import { FormsComponent } from './forms/forms.component';
 import { FormsLoginComponent } from './forms-login/forms-login.component';
+import { MaterialModule } from './material/material.module';
 
 
 
@@ -25,7 +26,8 @@ import { FormsLoginComponent } from './forms-login/forms-login.component';
   imports: [
     CommonModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    MaterialModule
   ],
   exports:[
     HeaderComponent,

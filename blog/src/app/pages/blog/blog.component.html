@@ -1,10 +1,8 @@
 <div class="layergrid">
   <div class="lyerIntrLeft"></div>
   <div class="lyerIntrCenter">
-
     <ul>
       <li *ngFor="let item of lista_de_Post">
-        <p>{{item.id}}</p>
         <p>{{item.title}}</p>
         <p>{{item.content}}</p>
         <img [src]="item.img_url" />
@@ -12,7 +10,6 @@
         <p>{{item.updated_at}}</p>
       </li>
     </ul>
-
   </div>
   <div class="lyerIntrRight"></div>
 </div>

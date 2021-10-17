@@ -3,6 +3,7 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-root',
   template: `
+
   <div class="template-grid">
 
     <div class="header-igrid">
@@ -19,8 +20,9 @@ import { Component } from '@angular/core';
     <div class="footer-igrid">
       <app-footer></app-footer>
     </div>
-    
+
   </div>
+
   `,
 })
 export class AppComponent {

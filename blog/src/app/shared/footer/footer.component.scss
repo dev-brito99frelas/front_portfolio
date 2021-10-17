@@ -2,25 +2,64 @@ footer {
   height: 100%;
   width: 100%;
   background: #313046;
+  color: white;
 }
 .footerinfo {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .mapsiteLeft {
-  max-height: 10vh;
-  width: 30vw;
+  width: 33vw;
+  min-width: 18vw;
+  justify-content: center;
+  padding-top: 30px;
+  padding-left: 20px;
 }
 .mapsiteRight {
-  max-height: 10vh;
-  width: 30vw;
+  width: 33vw;
+  min-width: 18vw;
 }
 .center {
-  text-align: center;
   align-self: center;
-  color: aliceblue;
-  max-height: 10vh;
+  text-align: center;
   width: 30vw;
+  min-width: 15vw;
+}
+.center > p {
+  color: white;
+  font-weight: bold;
+}
+
+ul {
+  font-weight: bold;
+  margin: 30px 0px 0px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  list-style: none;
+}
+ul > li {
+  // align-self: flex-end;
+  margin: 5px 0px 0px 0px;
+}
+a{
+  color: white;
+  font-weight: lighter;
+  text-decoration: none;
+}
+a:hover {
+  font-weight: bold;
+  color: rgb(81, 10, 148);
+  text-shadow:
+    0 0 2px #fff,
+    0 0 5px #fff,
+    0 0 11px #fff,
+    0 0 22px #6047ce,
+}
+.contact {
+  margin:auto;
+  line-height: 1.8;
 }
