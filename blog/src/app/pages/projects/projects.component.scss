@@ -1,15 +1,9 @@
-.layerCards{
+.projetscards {
   width: 100%;
-  // display: grid;
-  // grid-template-columns: 1fr;
-  // grid-template-rows: 20%;
-  // grid-template-areas:  "card"
-  // ;
-  // grid-column-gap: 10px;
-  // grid-row-gap: 10px;
-}
-.card {
-  width: 100%;
-//   background: blue;
-//   grid-area: card;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  padding: auto;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
